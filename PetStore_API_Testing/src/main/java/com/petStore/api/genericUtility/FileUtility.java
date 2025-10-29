@@ -13,7 +13,7 @@ public class FileUtility {
 	 * @throws Throwable
 	 */
 	public String readDataFromPropertyFile(String key) throws IOException {
-		FileInputStream fis= new FileInputStream("C:\\EclipseFolder\\PetStore_API_Testing\\Env_Congif_Data.properties");
+		FileInputStream fis= new FileInputStream("C:\\Users\\User\\git\\repository7\\PetStore_API_Testing\\Env_Congif_Data.properties");
 		Properties p= new Properties();
 		p.load(fis);
 		String value = p.getProperty(key);

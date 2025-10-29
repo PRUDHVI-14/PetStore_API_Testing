@@ -20,7 +20,7 @@ import java.util.List;
 public class EveryThingAboutPetsTest extends BaseApiClass {
 
 	JsonUtility jsonutil = new JsonUtility();
-	public Object petId;
+	public Object petId ="9223372036854760538";
 	
 	List<String> photo = Arrays.asList("https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?cs=srgb&dl=pexels-chevanon-1108099.jpg&fm=jpg");
 	
